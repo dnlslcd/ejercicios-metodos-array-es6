@@ -3,14 +3,16 @@
  */
 
 let edad = 21;
-let mensaje;
+let mensaje; 
 
-if (edad >= 18) {
-    mensaje = "Puedes pasar";
-}
+mensaje = (edad >= 18) ? "Puedes pasar" : "No puedes pasar";
 
-else {
-    mensaje = "No puedes pasar";
-}
+// if (edad >= 18) {
+//     mensaje = "Puedes pasar";
+// }
+
+// else {
+//     mensaje = "No puedes pasar";
+// }
 
 console.log(mensaje);

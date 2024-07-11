@@ -6,9 +6,8 @@
  * Modifica el cuerpo de la función para utilizar el operador ternario y conseguir el mismo resultado
  */
 
-function hipotecaSalvaje(edad) {
-    return edad > 40 ? "50000" : "30000";
-}
+const hipotecaSalvaje = (edad) => edad > 40 ? "50000" : "30000";
+
 
 
 // Caso de prueba 1: Edad mayor a 40
